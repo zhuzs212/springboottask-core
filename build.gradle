@@ -1,0 +1,22 @@
+dependencies {
+    implementation group: 'xerces', name: 'xercesImpl', version: '2.12.2'
+    implementation rootProject.ext.dependencies['swagger-starter']
+    implementation rootProject.ext.dependencies['orika-starter']
+    implementation rootProject.ext.dependencies['redis-starter']
+    implementation rootProject.ext.dependencies['okhttp']
+    implementation rootProject.ext.dependencies['easyjson']
+    implementation rootProject.ext.dependencies['mybatis-starter']
+    implementation rootProject.ext.dependencies['druid-starter']
+    implementation rootProject.ext.dependencies['mysql']
+    implementation rootProject.ext.dependencies['sqlhelper']
+    implementation rootProject.ext.dependencies['wechat-miniapp-starter']
+    implementation rootProject.ext.dependencies['commons-pool2']
+    implementation rootProject.ext.dependencies['jedis']
+    implementation rootProject.ext.dependencies['validation-starter']
+    implementation rootProject.ext.dependencies['hutool']
+    implementation rootProject.ext.dependencies['cos-api']
+    implementation rootProject.ext.dependencies['cos-sts-api']
+    implementation rootProject.ext.dependencies['tencentcloud']
+    implementation rootProject.ext.dependencies['langx']
+    implementation rootProject.ext.dependencies['jackson-dataformat-xml']
+}
